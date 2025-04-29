@@ -44,13 +44,13 @@ A lightweight Python utility for extracting the core content from web pages and 
 Extract content from a URL and save it with an auto-generated filename:
 
 ```bash
-python web_content_extractor.py https://example.com
+python conex.py https://example.com
 ```
 
 ### Specify Output File
 
 ```bash
-python web_content_extractor.py https://example.com -o output.html
+python conex.py https://example.com -o output.html
 ```
 
 ### Using as a Module
@@ -58,7 +58,7 @@ python web_content_extractor.py https://example.com -o output.html
 You can also import and use the functions in your own Python code:
 
 ```python
-from web_content_extractor import extract_web_content, extract_core_content, enhance_content_preservation, save_content_html
+from conex import extract_web_content, extract_core_content, enhance_content_preservation, save_content_html
 
 # Get content from a URL
 soup = extract_web_content("https://example.com")
