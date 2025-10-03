@@ -1,4 +1,4 @@
-# Web Content Extractor
+# Conex: Web Content Extractor
 
 A lightweight Python utility for extracting the core content from web pages and saving it as clean HTML files. This tool preserves important elements like paragraphs, code blocks, inline code sections, images, and tables while removing clutter.
 
